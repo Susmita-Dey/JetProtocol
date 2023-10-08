@@ -10,7 +10,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="filter drop-shadow-md lg:px-24 h-20 px-2 border-2 rounded-full border-gray-900 sticky flex items-center justify-between py-3 mx-16 my-5 z-50">
+      <nav className="filter drop-shadow-md lg:px-24 h-20 px-2 border-2 rounded-full border-gray-900 relative flex items-center justify-between py-3 mx-3 md:mx-16 my-5 z-50">
         <div className="container px-4 mx-auto flex items-center justify-center lg:justify-between w-full">
           <div className="w-full lg:w-auto flex justify-start items-center">
             <Link
@@ -79,8 +79,8 @@ export default function Navbar() {
             </ul>
           </div>
           <div className="flex flex-col lg:flex-row list-none">
-            <button className="px-4 py-2 w-full rounded-full text-black font-medium bg-[#64AE9D] hover:bg-[#64AE9D] shadow">
-              Launch App
+            <button className="px-4 py-2 w-full font-bold rounded-full text-black bg-[#64AE9D] hover:bg-[#64AE9D] shadow">
+              launch app
             </button>
           </div>
         </div>
