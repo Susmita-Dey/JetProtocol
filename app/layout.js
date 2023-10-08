@@ -5,8 +5,8 @@ import Navbar from './components/Navbar'
 export const metadata = {
   title: 'Jet Protocol: Transform Your DeFi Governance Experience',
   description: 'Jet Protocol revolutionizes decentralized finance (DeFi) governance. Experience open-source, secure borrowing, and lending on the efficient Solana blockchain.',
-  url: 'https://jetprotocol.vercel.app/',
-  image: '/favicon.ico',
+  url: 'https://jet-protocol-lovat.vercel.app/',
+  image: 'https://jet-protocol-lovat.vercel.app/jetprotocol.svg',
 }
 
 export default function RootLayout({ children }) {
