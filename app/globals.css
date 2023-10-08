@@ -25,3 +25,68 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.gradient-container {
+  max-width: 40rem;
+  width: 100%;
+  height: 24.5625rem;
+  /* margin-top: 10rem; */
+  display: flex;
+  position: relative;
+  opacity: 0.8;
+}
+.gradient-side {
+  width: 50%;
+}
+.gradient-side.gradient-left {
+  background: conic-gradient(
+    from 270deg at 50% 50%,
+    #54c0a0 0deg,
+    rgba(84, 192, 160, 0) 103.7688223354902deg,
+    rgba(0, 0, 0, 0) 178.88464369703195deg,
+    rgba(84, 192, 160, 0.1) 359.6590965501964deg,
+    rgba(0, 0, 0, 0) 359.8470848509976deg
+  );
+  rotate: 180deg;
+}
+.gradient-side.gradient-right {
+  background: conic-gradient(
+    from 270.2deg at 50% 50%,
+    rgba(0, 0, 0, 0) 2.3409034498035908deg,
+    rgba(84, 192, 160, 0.1) 2.5281363911926746deg,
+    rgba(0, 0, 0, 0) 181.31576299667358deg,
+    rgba(84, 192, 160, 0) 256.43158435821533deg,
+    #54c0a0 359.23537731170654deg
+  );
+}
+.gradient-container .gradient-top {
+  position: absolute;
+  background: #000;
+  filter: blur(-20px);
+  width: 100%;
+  height: 0.4375rem;
+  z-index: 20;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-100%);
+}
+.gradient-ellipse {
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  height: 5.875rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(-0.4375rem);
+  background: var(--blue, #32a5d3);
+  border-radius: 17.75rem;
+  filter: blur(125px);
+  z-index: 30;
+}
+.gradient-big-box {
+  position: absolute;
+  width: 100%;
+  height: 17rem;
+  background: rgba(0, 0, 0, 1);
+  filter: blur(70px);
+  bottom: -40%;
+  z-index: 10;
+}
