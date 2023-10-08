@@ -1,7 +1,6 @@
 import './globals.css'
-import { Poppins } from 'next/font/google'
-
-const poppins = Poppins({ subsets: ['latin'] })
+import { poppins } from './fonts'
+import Navbar from './components/Navbar'
 
 export const metadata = {
   title: 'JetProtocol',
@@ -11,7 +10,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+        <Navbar />
+        {children}</body>
     </html>
   )
 }
