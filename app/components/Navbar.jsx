@@ -12,17 +12,13 @@ export default function Navbar() {
     <>
       <nav className="filter drop-shadow-md lg:px-24 h-20 px-2 border-2 rounded-full border-gray-900 relative flex items-center justify-between py-3 mx-3 md:mx-16 my-5 z-50">
         <div className="container px-4 mx-auto flex items-center justify-center lg:justify-between w-full">
-          <div className="w-full lg:w-auto flex justify-start items-center">
-            <Link
-              href={"/"}
-              className="w-full relative flex flex-row justify-center items-center "
-            >
+          <div className="w-full lg:w-auto flex justify-between items-center">
+            <Link href={"/"} className="w-32 lg:w-auto">
               <Image
                 src={"/jetprotocol.svg"}
-                width={0}
-                height={0}
+                width={120}
+                height={40}
                 alt="logo"
-                className="w-full h-full"
               />
             </Link>
             <button
@@ -40,45 +36,52 @@ export default function Navbar() {
           <div
             className={
               "lg:flex flex-grow justify-center items-center" +
-              (navbarOpen ? " flex" : " hidden")
+              (navbarOpen ? " flex flex-col mt-10" : " hidden")
             }
           >
-            <ul className="flex flex-col lg:flex-row list-none">
-              <li className="nav-item">
-                <Link
-                  className="px-3 py-2 flex items-center text-base font-medium leading-snug hover:opacity-75"
-                  href="#"
-                >
-                  products
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="px-3 py-2 flex items-center text-base font-medium leading-snug hover:opacity-75"
-                  href="#"
-                >
-                  dao
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="px-3 py-2 flex items-center text-base font-medium leading-snug hover:opacity-75"
-                  href="#"
-                >
-                  build
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="px-3 py-2 flex items-center text-base font-medium leading-snug hover:opacity-75"
-                  href="#"
-                >
-                  docs
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div className="flex flex-col lg:flex-row list-none">
+            <div
+              className={
+                "lg:flex flex-grow justify-center items-center" +
+                (navbarOpen
+                  ? " flex flex-col mt-10 w-full px-4 h-[50vh] bg-blue-950/80"
+                  : " hidden")
+              }
+            >
+              <ul className="flex flex-col lg:flex-row list-none">
+                <li className="nav-item">
+                  <Link
+                    className="px-3 py-2 flex items-center text-base font-medium leading-snug hover:opacity-75"
+                    href="#"
+                  >
+                    products
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    className="px-3 py-2 flex items-center text-base font-medium leading-snug hover:opacity-75"
+                    href="#"
+                  >
+                    dao
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    className="px-3 py-2 flex items-center text-base font-medium leading-snug hover:opacity-75"
+                    href="#"
+                  >
+                    build
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    className="px-3 py-2 flex items-center text-base font-medium leading-snug hover:opacity-75"
+                    href="#"
+                  >
+                    docs
+                  </Link>
+                </li>
+              </ul>
+            </div>
             <button
               className="bg-[#54C0A0] text-black font-bold py-2 px-4 rounded-full border border-[rgba(255,255,255,0.24)] hover:bg-[#09ffb5]"
               style={{
