@@ -1,6 +1,10 @@
 # JetProtocol 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Screenshot
+
+![image](https://github.com/Susmita-Dey/JetProtocol/assets/79099734/c82522f9-17bb-40f9-87aa-3826d4ee2a9a)
+
 ## Getting Started
 
 First, run the development server:
