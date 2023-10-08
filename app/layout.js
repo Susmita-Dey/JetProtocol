@@ -1,6 +1,6 @@
 import './globals.css'
 import { poppins } from './fonts'
-import Navbar from './components/Navbar'
+import Navbar from '../components/Navbar'
 
 export const metadata = {
   title: 'Jet Protocol: Transform Your DeFi Governance Experience',

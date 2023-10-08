@@ -1,5 +1,5 @@
 import React from "react";
-import { playfair_display } from "../fonts";
+import { playfair_display } from "../app/fonts";
 
 export default function HeroSection() {
   return (
