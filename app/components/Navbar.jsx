@@ -79,7 +79,13 @@ export default function Navbar() {
             </ul>
           </div>
           <div className="flex flex-col lg:flex-row list-none">
-            <button className="px-4 py-2 w-full font-bold rounded-full text-black bg-[#64AE9D] hover:bg-[#64AE9D] shadow">
+            <button
+              className="bg-[#54C0A0] text-black font-bold py-2 px-4 rounded-full border border-[rgba(255,255,255,0.24)] hover:bg-[#09ffb5]"
+              style={{
+                boxShadow:
+                  "0px 2px 2px 0px rgba(255, 255, 255, 0.48) inset, 0px -2px 2px 0px rgba(0, 0, 0, 0.48) inset",
+              }}
+            >
               launch app
             </button>
           </div>

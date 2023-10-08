@@ -20,10 +20,22 @@ export default function HeroSection() {
         </p>
       </div>
       <div className="flex flex-col gap-6 lg:flex-row items-center justify-center">
-        <button className="bg-[#54C0A0] text-black font-bold py-2 px-4 rounded-full">
+        <button
+          className="bg-[#54C0A0] text-black font-bold py-2 px-4 rounded-full border border-[rgba(255,255,255,0.24)] hover:bg-[#09ffb5]"
+          style={{
+            boxShadow:
+              "0px 2px 2px 0px rgba(255, 255, 255, 0.48) inset, 0px -2px 2px 0px rgba(0, 0, 0, 0.48) inset",
+          }}
+        >
           read docs
         </button>
-        <button className="border-gray-400 border-2 font-bold py-2 px-4 rounded-full">
+        <button
+          className="border border-[rgba(255,255,255,0.48)] hover:bg-slate-50 hover:text-black font-bold py-2 px-4 rounded-full backdrop-blur-sm"
+          style={{
+            boxShadow:
+              "0px 2px 2px 0px rgba(255, 255, 255, 0.48) inset, 0px -2px 2px 0px rgba(0, 0, 0, 0.48) inset",
+          }}
+        >
           how it works
         </button>
       </div>

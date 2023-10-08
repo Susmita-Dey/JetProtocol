@@ -3,13 +3,18 @@ import { poppins } from './fonts'
 import Navbar from './components/Navbar'
 
 export const metadata = {
-  title: 'JetProtocol',
-  description: 'Next-gen DeFi protocol for stablecoins',
+  title: 'Jet Protocol: Transform Your DeFi Governance Experience',
+  description: 'Jet Protocol revolutionizes decentralized finance (DeFi) governance. Experience open-source, secure borrowing, and lending on the efficient Solana blockchain.',
+  url: 'https://jetprotocol.vercel.app/',
+  image: '/favicon.ico',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className={poppins.className}>
         <Navbar />
         {children}</body>
