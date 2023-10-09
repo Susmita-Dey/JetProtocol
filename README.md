@@ -4,7 +4,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Screenshot
 
 ![image](https://github.com/Susmita-Dey/JetProtocol/assets/79099734/863247fe-d9ae-4719-a88d-0e8bb8543ab8)
+![image](https://github.com/Susmita-Dey/JetProtocol/assets/79099734/11a8064e-d677-4d6e-b5dd-3375cf062bf2)
 
+## Page Speed Report
+**SEO is 100 as per the report.**
+
+Check it out here:- https://pagespeed.web.dev/analysis/https-jet-protocol-lovat-vercel-app/o8otfi7ayl?form_factor=desktop 
 
 ## Getting Started
 
