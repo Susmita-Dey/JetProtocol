@@ -3,7 +3,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Screenshot
 
-![image](https://github.com/Susmita-Dey/JetProtocol/assets/79099734/c82522f9-17bb-40f9-87aa-3826d4ee2a9a)
+![image](https://github.com/Susmita-Dey/JetProtocol/assets/79099734/863247fe-d9ae-4719-a88d-0e8bb8543ab8)
+
 
 ## Getting Started
 
